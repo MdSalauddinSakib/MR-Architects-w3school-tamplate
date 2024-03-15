@@ -210,3 +210,10 @@ input{
     color: white;
     background-color: rgba(0, 0, 0, 0.63);
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 32px 0;
+    text-align: center;
+}
