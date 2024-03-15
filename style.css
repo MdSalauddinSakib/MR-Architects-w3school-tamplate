@@ -260,3 +260,13 @@ input{
 }
 
 /* tablets devices */
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .d-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .btn, .btn:hover{
+        width: 30%;
+    }
+}
