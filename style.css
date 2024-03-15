@@ -1,14 +1,19 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Verdana, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -16,7 +21,7 @@ h1, h2, h3, h4, h5, h6{
     Navbar style
 ---------------------------- */
 
-.navbar{
+.navbar {
     font-size: 15px;
     line-height: 22.5px;
     letter-spacing: 4px;
@@ -30,37 +35,39 @@ h1, h2, h3, h4, h5, h6{
     z-index: 999;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: space-between;
     height: 80px;
 }
 
-.logo{
+.logo {
     padding: 13px 16px;
 }
 
-.special{
+.special {
     font-weight: bold;
 }
 
-.navbar li, menu{
+.navbar li,
+menu {
     list-style: none;
     padding: 25px 16px;
     cursor: pointer;
 }
 
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     color: black;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu li:hover, .logo:hover{
+.menu li:hover,
+.logo:hover {
     background-color: gainsboro;
 }
 
@@ -68,7 +75,7 @@ h1, h2, h3, h4, h5, h6{
         header styles
 ---------------------------- */
 
-.header{
+.header {
     background: url("images/architect.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,20 +85,20 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-.wrapper-title h1{
+.wrapper-title h1 {
     font-size: 36px;
     letter-spacing: 4px;
     color: white;
     text-align: center;
 }
 
-.mr-title{
+.mr-title {
     background-color: black;
     padding: 8px 16px;
     opacity: 0.7;
 }
 
-.arc-title{
+.arc-title {
     font-weight: normal;
 }
 
@@ -99,17 +106,17 @@ h1, h2, h3, h4, h5, h6{
     main content style
 ------------------------------- */
 
-.container{
+.container {
     max-width: 1280px;
     margin: 0 32px;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.section-title{
+.section-title {
     padding: 18px 0;
     margin: 52px 0;
     border-bottom: 1px solid gainsboro;
@@ -117,7 +124,7 @@ img{
     font-weight: normal;
 }
 
-.d-grid{
+.d-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
@@ -125,11 +132,11 @@ img{
     align-items: center;
 }
 
-.house-card{
+.house-card {
     position: relative;
 }
 
-.house-card p{
+.house-card p {
     position: absolute;
     top: 0;
     left: 0;
@@ -137,3 +144,50 @@ img{
     color: white;
     padding: 8px 16px;
 }
+
+.about .section-title {
+    margin-bottom: 25px;
+}
+
+.about p {
+    line-height: 22.5px;
+    text-align: justify;
+}
+
+/* ---------------------
+    Card styles
+------------------------ */
+
+.card-content h1,
+h3 {
+    font-weight: normal;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    color: gray;
+}
+
+.card-content p{
+    font-size: 15px;
+    padding: 18px 0;
+}
+
+button{
+    border: none;
+    padding: 10px 8px;
+    width: 100%;
+    font-size: 17px;
+    background-color: #f1f1f1;
+}
+button:hover{
+    border: none;
+    padding: 10px 8px;
+    width: 100%;
+    font-size: 17px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
